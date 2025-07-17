@@ -1,0 +1,54 @@
+nav{
+  background-color: #F5F5F5;
+}
+#brand{
+  padding: 1px;
+  margin-left: 25px;
+}
+
+#brand:hover{
+     background: linear-gradient(45deg, #E4003A, #FF6F61);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+li,.nav-item{
+  color: #1B1A17;
+}
+ i:hover {
+  background: linear-gradient(45deg, #E4003A, #FF6F61);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-item:hover {
+  background: linear-gradient(45deg, #E4003A, #FF6F61);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+img{
+    border-radius: 10px;
+}
+.skill-img {
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-img:hover {
+  transform: scale(1.1);
+}
+.gradient-border {
+  border: 5px solid; /* Required for border-image to work */
+  border-radius: 20px;
+  border-image: linear-gradient(45deg, #ff6a00, #1c09ee) 1;
+}
+
+a{
+  text-decoration: none;
+}
+
+footer:hover{
+    transition: transform 0.2s ease-in-out;
+
+}
